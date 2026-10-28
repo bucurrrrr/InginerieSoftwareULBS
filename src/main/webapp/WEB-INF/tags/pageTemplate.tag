@@ -9,8 +9,8 @@
 </head>
 <body>
 <jsp:include page="/WEB-INF/pages/menu.jsp" />
-<main> class="container-fluid mt-5">
-        <jsp:doBody/>
+<main class="container-fluid" style="padding-top: 80px;">
+    <jsp:doBody/>
 </main>
 <footer class="bg-dark text-light text-center py-3 mt-auto">
     &copy; <%= java.time.Year.now() %> Bucur Ioan Alexandru
